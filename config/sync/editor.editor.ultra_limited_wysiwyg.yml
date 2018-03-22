@@ -1,0 +1,43 @@
+uuid: 6690483a-f63f-40b0-b4b1-9960c413ff13
+langcode: en
+status: true
+dependencies:
+  config:
+    - filter.format.ultra_limited_wysiwyg
+  module:
+    - ckeditor
+format: ultra_limited_wysiwyg
+editor: ckeditor
+settings:
+  toolbar:
+    rows:
+      -
+        -
+          name: Formatting
+          items:
+            - Bold
+            - Italic
+        -
+          name: Format
+          items:
+            - JustifyLeft
+            - JustifyCenter
+            - JustifyRight
+        -
+          name: Lists
+          items:
+            - BulletedList
+            - NumberedList
+  plugins:
+    stylescombo:
+      styles: ''
+    language:
+      language_list: un
+image_upload:
+  status: false
+  scheme: public
+  directory: inline-images
+  max_size: ''
+  max_dimensions:
+    width: null
+    height: null
