@@ -1,0 +1,17 @@
+uuid: 2dee687a-b4b8-43f1-84be-5c4a454f30fb
+langcode: en
+status: true
+dependencies: {  }
+id: event
+label: 'Event Creator'
+weight: 3
+is_admin: null
+permissions:
+  - 'access administration pages'
+  - 'access in-place editing'
+  - 'create event content'
+  - 'create url aliases'
+  - 'delete own event content'
+  - 'edit own event content'
+  - 'use text format editor_wysiwyg_'
+  - 'view the administration theme'
